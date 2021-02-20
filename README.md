@@ -20,3 +20,8 @@ $ docker run -ti --rm -v $(pwd):/data -w /data alpine/cfn cfn-lint template.yaml
 # converts AWS CloudFormation templates between JSON and YAML formats
 $ docker run -ti --rm -v $(pwd):/data -w /data alpine/cfn cfn-flip template.yaml
 ```
+
+### Todo list
+
+1)  it is manually builtt for multi-arch, later will build and push via automation CICD pipelines, such as Traivs, Github action, etc
+2) need detect and build for latest version when new release is announce from source sites.
