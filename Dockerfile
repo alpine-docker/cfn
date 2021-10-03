@@ -1,6 +1,6 @@
 FROM python:alpine
 
-ARG lint_version=v0.44.7
+ARG lint_version=v0.54.2
 ARG flip_version=1.2.3
 
 RUN pip install cfn-lint==${lint_version}
